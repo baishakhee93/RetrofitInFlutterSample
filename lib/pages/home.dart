@@ -54,7 +54,7 @@ class Home extends StatelessWidget {
         itemBuilder: (context, index) {
 
           print("requestModel..length.............${requestModel.length}");
-          print("requestModel..length.............${requestModel[index]}");
+          print("requestModel..length.............${requestModel[index].title}");
 
           return Container(
             margin: EdgeInsets.all(16),
